@@ -64,7 +64,7 @@ label:hover {
   height: 60px;
   font-size: 0.8rem;
 }
-.error {
+.error{
   color: var(--error);
 }
 
