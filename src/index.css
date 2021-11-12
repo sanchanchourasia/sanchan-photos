@@ -27,7 +27,7 @@ body {
 }
 .title h2 {
   margin-top: 60px;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
 }
 
 /* upload form styles */
@@ -123,6 +123,11 @@ label:hover {
     max-width: 93%;
     margin: 0 auto;
   }
+  .title h2 {
+    margin-top: 30px;
+    font-size: 2.0rem;
+  }
+  
 
   label {
     width: 40px;
@@ -138,7 +143,7 @@ label:hover {
     border: 1px solid var(--primary);
   }
   .img-grid {
-    margin: 1px auto;
+    margin: -20px auto;
     grid-gap: 20px;
   }
 }
