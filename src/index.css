@@ -145,6 +145,7 @@ label:hover {
     border: 1px solid var(--primary);
   }
   .img-grid {
+    grid-template-columns: 1fr;
     margin: -16px auto;
     grid-gap: 6px;
   }
