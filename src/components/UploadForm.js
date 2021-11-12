@@ -6,7 +6,7 @@ export const UploadForm = () => {
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
 
-  const types = ["image/png", "image/webp", "image/jpeg", "image/jpg"];
+  const types = ["image/png", "image/jpeg", "image/jpg","image/webp", "image/gif", ];
 
   const changrHandler = (e) => {
     //console.log('file selected');
@@ -18,7 +18,7 @@ export const UploadForm = () => {
       setError('');
     } else {
       setFile(null);
-      setError("Please select an image file (png or jpeg)");
+      setError("Please select an image file (png || gif || jpeg)");
     }
   };
   return (
