@@ -10,16 +10,17 @@
 body {
   font-family: "Noto Serif";
   color: var(--secondary);
-
-  max-width: 70%;
+  max-width: 75%;
   margin: 0 auto;
 }
 
-.title h1 {
+.h1 {
   color: var(--primary);
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
+  margin-left: 17%;
+  
 }
 .title h2,
 .title p {
@@ -107,7 +108,7 @@ label:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-.backdrop img{
+.backdrop img {
   display: block;
   max-width: 60%;
   max-height: 80%;
