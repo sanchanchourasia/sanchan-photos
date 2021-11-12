@@ -118,11 +118,14 @@ label:hover {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body {
-    max-width: 92%;
+    max-width: 95%;
     margin: 0 auto;
   }
   .img-wrap {
     height: 100px;
     width: auto;
+  }
+  .img-grid {
+    margin: 1px auto;
   }
 }
