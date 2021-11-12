@@ -115,6 +115,8 @@ label:hover {
   border: 3px solid white;
 }
 
+
+/*RESPONSIVE MOBILE VIEW*/
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body {
@@ -135,5 +137,6 @@ label:hover {
   }
   .img-grid {
     margin: 1px auto;
+    grid-gap: 20px;
   }
 }
