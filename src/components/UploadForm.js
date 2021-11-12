@@ -6,7 +6,7 @@ export const UploadForm = () => {
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
 
-  const types = ["image/png", "image/jpeg", "image/jpg"];
+  const types = ["image/png", "image/webp", "image/jpeg", "image/jpg"];
 
   const changrHandler = (e) => {
     //console.log('file selected');
