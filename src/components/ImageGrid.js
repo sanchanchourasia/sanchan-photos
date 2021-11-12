@@ -9,7 +9,7 @@ const ImageGrid = () => {
         <div className="img-grid">
            { docs && docs.map(doc => (
                <div className='img-wrap' key={doc.id}>
-                   <img src={doc.url} style={{objectFit:'cover'}} alt='image not available' /> </div>
+                   <img src={doc.url} style={{objectFit:'cover'}} alt='pic not available' /> </div>
            ))}           
         </div>
     )
