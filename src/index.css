@@ -139,8 +139,7 @@ label:hover {
     font-size: 36px;
   }
   .img-wrap {
-    height: 50px;
-    width: auto;
+    height: 0px;
     border-radius: 4px;
     border: 1px solid var(--primary);
   }
