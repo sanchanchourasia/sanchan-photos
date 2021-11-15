@@ -11,7 +11,7 @@ const Title = () => {
         alt="logo"
         style={{ height: "30px", marginTop: "10px" }}
       />{" "}
-      <span className="h1">Sanchan's Gallery</span>
+      <h1>Sanchan's Photo Gallery</h1>
       <p>This website is photos Gallery....</p>
       <h2>My Pictures!</h2>
     </div>
