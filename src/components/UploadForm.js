@@ -22,7 +22,7 @@ export const UploadForm = () => {
     }
   };
   return (
-    <>
+    <div>
       <form>
         <label>
           <input type="file" onChange={changrHandler} />
@@ -34,6 +34,6 @@ export const UploadForm = () => {
           {file && <ProgressBar file={file} setFile={setFile} />}
         </div>
       </form>
-    </>
+    </div>
   );
 };

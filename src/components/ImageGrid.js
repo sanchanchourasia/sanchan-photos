@@ -12,7 +12,7 @@ const ImageGrid = ({ setSelectedImg }) => {
           <div
             className="img-wrap"
             key={doc.id}
-            onClick = {() => setSelectedImg(doc.url)}
+            onClick={() => setSelectedImg(doc.url)}
           >
             <img
               src={doc.url}
