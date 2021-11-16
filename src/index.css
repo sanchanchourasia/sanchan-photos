@@ -123,7 +123,7 @@ label:hover {
 }
 
 /*RESPONSIVE MOBILE VIEW*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body {
     max-width: 93%;
@@ -150,7 +150,7 @@ label:hover {
     border: 1px solid var(--primary);
   }
   .img-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: -16px auto;
     grid-gap: 6px;
   }
