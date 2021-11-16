@@ -87,7 +87,7 @@ label:hover {
 }
 .img-wrap {
   overflow: hidden;
-  height: 0;
+  height: 10;
   padding: 50% 0;
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
