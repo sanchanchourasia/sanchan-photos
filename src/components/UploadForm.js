@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ImageGrid from "./ImageGrid";
 import ProgressBar from './ProgressBar';
 
 
@@ -32,6 +33,8 @@ export const UploadForm = () => {
           {error && <div className="error"> {error} </div>}
           {file && <div> {file.name} </div>}
           {file && <ProgressBar file={file} setFile={setFile} />}
+          {file && <ImageGrid file={file} setFile={setFile} />}
+
         </div>
       </form>
     </div>
