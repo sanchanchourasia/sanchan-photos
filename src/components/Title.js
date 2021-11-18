@@ -12,7 +12,7 @@ const Title = () => {
         style={{ height: "30px", marginTop: "10px" }}
       />{" "}
       <h1>Sanchan's Photo Gallery</h1>
-      <p>This website is photos Gallery....</p>
+      <p>Somewhere between emotion and emotionless, i grew up....</p>
       <h2>My Pictures!</h2>
     </div>
   );
