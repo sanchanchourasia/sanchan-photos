@@ -16,7 +16,7 @@ export const UploadForm = () => {
   ];
 
   let verifyPassword = (e) => {
-    let password = "xyz@@@zyx";
+    let password = "zindaggi";
     let confrimpassword = e.target.value;
     if (password === confrimpassword) {
       alert("password Match");
